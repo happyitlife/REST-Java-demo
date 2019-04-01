@@ -38,7 +38,7 @@ public class Kline {
         return count;
     }
 
-    public void setCount(int count) {
+    public void setCount(double count) {
         this.count = count;
     }
 
@@ -54,7 +54,7 @@ public class Kline {
         return close;
     }
 
-    public void setClose(int close) {
+    public void setClose(double close) {
         this.close = close;
     }
 
@@ -62,7 +62,7 @@ public class Kline {
         return low;
     }
 
-    public void setLow(int low) {
+    public void setLow(double low) {
         this.low = low;
     }
 
@@ -70,7 +70,7 @@ public class Kline {
         return high;
     }
 
-    public void setHigh(int high) {
+    public void setHigh(double high) {
         this.high = high;
     }
 
